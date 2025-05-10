@@ -197,5 +197,5 @@ Day 1 of the challenge is complete! Keep practicing and exploring more complex p
 * Share your solutions to the practice problems for feedback.
 * If you have any additional resources or tips, please share them with the group!
 ```
-Click [here](../Day3_LinkedLists/LinkedLists.md) for Day 2 of the challenge Linked Lists!
+Click [here](../Day3_LinkedLists/LinkedLists.md) for Day 3 of the challenge Linked Lists!
 ```
