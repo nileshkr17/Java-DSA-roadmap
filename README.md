@@ -26,7 +26,7 @@ Each day covers a specific topic in DSA with:
 | Day 0 | Java Setup        | [Java Setup Guide](./Day0_Setup/Java_Setup_Guide.md) |
 | Day 1 | Arrays & Strings  | [Arrays & Strings](./Day1_Arrays/Arrays.md)          |
 | Day 2 | Linked Lists      | [Linked List](./Day3_LinkedLists/LinkedLists.md)     |
-| Day 3 | Stacks and Queues | _Coming Soon_                                        |
+| Day 3 | Stacks and Queues | [Stack](./Day4_Stacks/Stacks.md)                     |
 | ...   | ...               | ...                                                  |
 
 ---
