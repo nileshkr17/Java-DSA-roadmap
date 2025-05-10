@@ -254,26 +254,39 @@ Useful for simulating streaming input or ordered processing (FIFO behavior).
 
 ---
 
-## **16. Glossary of Terms**
+### 16. **Glossary of Terms**
 
-* **Node**: Element of a linked list.
-* **Pointer**: Reference to next/previous node.
-* **Head/Tail**: First/last nodes.
-* **Singly/Doubly**: One/two pointers per node.
-* **Circular**: Last node points to head.
+* **Head**: First node of the list
+* **Tail**: Last node of the list
+* **Node**: Single unit with data and reference(s)
+* **Pointer/Reference**: Links to next (and/or previous) node
+* **Traversal**: Visiting each node sequentially
+* **Null Termination**: End of list indicator
 
 ---
 
 ## **17. FAQs & Interview SDE Problems**
 
-**Q1: Is LinkedList better than ArrayList?**
-A: Depends. For frequent insertions/deletions, yes. For random access, no.
+* **Q1: Is LinkedList better than ArrayList?**
+    * Depends. For frequent insertions/deletions, yes. For random access, no.
 
-**Q2: How to detect a cycle in a linked list?**
-A: Use Floyd's Cycle Detection Algorithm (slow/fast pointer).
+* **Q2: How to detect a cycle in a linked list?**
+    * Use Floyd's Cycle Detection Algorithm (slow/fast pointer).
 
-**Q3: Can LinkedList be used as a stack or queue?**
-A: Yes. Implements Deque. Use `addFirst()`/`removeFirst()` for stack, and `addLast()`/`removeFirst()` for queue.
+* **Q3: Can LinkedList be used as a stack or queue?**
+    * Yes. Implements Deque. Use `addFirst()`/`removeFirst()` for stack, and `addLast()`/`removeFirst()` for queue.
+
+* **Q4: Why is LinkedList slower than ArrayList in Java?**
+
+    * Because `get(index)` is O(n) in LinkedList and O(1) in ArrayList.
+
+* **Q5: When should I use LinkedList over ArrayList?**
+
+    * When frequent insertions/deletions are expected, especially at the beginning or middle.
+
+* **Q6: Can we implement a queue using a linked list?**
+
+    * Yes, insert at tail and remove from head => O(1) operations
 
 ### **SDE Questions (with Solutions Overview)**
 
@@ -315,19 +328,13 @@ A: Yes. Implements Deque. Use `addFirst()`/`removeFirst()` for stack, and `addLa
 **End of Notes: Linked Lists**
 
 ---
-### **Personal Insights or Best Practices:**
-* **For Linked Lists**: Always consider edge cases like empty lists or single-node lists.
-* **For Recursion**: Understand the base case and recursive case clearly.
-* **For Complexity**: Always analyze time and space complexity before coding.
-* **For Practice**: Solve problems on platforms like LeetCode, HackerRank, or GeeksforGeeks.
-* **For Interviews**: Practice explaining your thought process and approach clearly.
-* **For Real-World Applications**: Think about how linked lists can be used in applications like music players, job scheduling, and undo functionality in text editors.
-* **For Debugging**: Use print statements or debuggers to trace through your code, especially in recursive functions.
-* **For Optimization**: Consider using iterative solutions for problems that can lead to stack overflow with recursion.
+### 20. **Personal Insights / Best Practices**
 
+* Always draw the linked list when solving problems—it reduces pointer bugs.
+* Prefer dummy nodes (sentinels) to simplify insertion/deletion edge cases.
+* For complex manipulations, consider creating helper methods (e.g., reverse, merge).
+* In interviews, verbalize pointer changes—interviewers value clarity over code alone.
 
-----
-Day 2 of the challenge is complete! Keep practicing and exploring more complex problems. Happy coding!
+---
 
-Click [here](../Day4_StacksQueues/StacksQueues.md) for Day 4 of the challenge Stacks and Queues!
-```
+> ✅ **This topic is foundational. Mastering linked lists opens up recursion, tree traversal, stack/queue internals, and dynamic memory manipulation.**

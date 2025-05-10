@@ -1,5 +1,5 @@
 
-# 🧠 30 Days of DSA in Java 🚀
+# 🧠 Java-dsa-roadmap 🚀
 
 Welcome to **30 Days of Data Structures and Algorithms (DSA) in Java** – your one-stop resource for mastering DSA for coding interviews, academic learning, and real-world software development.
 
