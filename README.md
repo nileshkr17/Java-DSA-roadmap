@@ -1,5 +1,5 @@
 
-# 🧠 Java-dsa-roadmap 🚀
+## 🧠 Java-dsa-roadmap 🚀
 
 Welcome to Java DSA Roadmap – your one-stop resource for mastering Data Structures and Algorithms (DSA) in Java. This repository serves as a comprehensive and centralized checkpoint for anyone looking to strengthen their understanding of DSA concepts, improve coding interview performance, and enhance their problem-solving skills in real-world software development.  
 Whether you're a student, self-learner, or professional, this roadmap will guide you through the key concepts of DSA in Java, with hands-on examples, practical problems, and advanced techniques. Each section of this repository is designed to be concise, insightful, and interview-ready, making it a perfect tool for preparing for technical interviews and exams.
