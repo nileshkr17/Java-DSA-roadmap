@@ -53,15 +53,14 @@ Each day covers a specific topic in DSA with:
 ## 🤝 Contributions
 
 Pull requests are welcome! If you’d like to add notes, correct something, or enhance examples, feel free to fork and contribute.
+Contributors list:
 
 ---
 
-### 📘 `Java_Setup_Guide.md` (inside `Day0_Setup/`)
-
-### 📅 Day 0: Java Setup Guide
+# 📅 Day 0: Java Setup Guide
 
 Before diving into DSA, let’s get your system ready to code in Java!
-
+ 📘 `Java_Setup_Guide.md` (inside `Day0_Setup/`)
 ---
 
 ### 🔧 Step 1: Install Java JDK
