@@ -21,14 +21,13 @@ Each day covers a specific topic in DSA with:
 
 ## 📅 Daily Topics
 
-| Day   | Topic            | Link                                   |
-|-------|------------------|----------------------------------------|
-| Day 0 | Java Setup       | [Java Setup Guide](./Day0_Setup/Java_Setup_Guide.md) |
-| Day 1 | Arrays           | [Arrays](./Day1_Arrays/Arrays.md)     |
-| Day 2 | Strings          | [Strings](./Day2_Strings/Strings.md)  |
-| Day 3 | Linked Lists     | _Coming Soon_                         |
-| Day 4 | Stacks and Queues| _Coming Soon_                         |
-| ...   | ...              | ...                                   |
+| Day   | Topic             | Link                                                 |
+|-------|-------------------|------------------------------------------------------|
+| Day 0 | Java Setup        | [Java Setup Guide](./Day0_Setup/Java_Setup_Guide.md) |
+| Day 1 | Arrays & Strings  | [Arrays & Strings](./Day1_Arrays/Arrays.md)          |
+| Day 2 | Linked Lists      | [Linked List](./Day2_Strings/Strings.md)             |
+| Day 3 | Stacks and Queues | _Coming Soon_                                        |
+| ...   | ...               | ...                                                  |
 
 ---
 
@@ -129,7 +128,7 @@ java Main
 
 ---
 
-Next: Day 1 – Arrays
+Next: [**Day 1: Arrays & Strings**](./Day1_Arrays/Arrays.md)
 
 ---
 
