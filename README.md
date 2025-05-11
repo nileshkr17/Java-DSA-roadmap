@@ -53,7 +53,9 @@ Each day covers a specific topic in DSA with:
 ## 🤝 Contributions
 
 Pull requests are welcome! If you’d like to add notes, correct something, or enhance examples, feel free to fork and contribute.
-Contributors list:
+Frontend contributions are also welcome! 
+Please check the [frontend repo](https://github.com/nileshkr17/java-dsa-compass)
+if you want to contribute to the frontend. Mail me at: nileshkr1706@gmail.com
 
 ---
 
